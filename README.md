@@ -1,8 +1,5 @@
-# Estudo de mercado ADS
-Análise de Mercado para Desenvolvedores
-
-DOSSIÊ DE MERCADO — 2025
-Perfil do Analista de Desenvolvimento de Sistemas (Brasil)
+## DOSSIÊ DE MERCADO — 2025
+# Perfil do Analista de Desenvolvimento de Sistemas (Brasil)
 
 O mercado de desenvolvimento de sistemas em 2025 consolida uma era de maturidade técnica e valorização estratégica do profissional. A análise de vagas e relatórios setoriais revela um ecossistema dinâmico, onde a dualidade JavaScript/TypeScript se estabelece como o novo padrão para desenvolvimento web, complementado pela robustez do .NET em ambientes corporativos. A linguagem Python, embora líder global em volume de código no GitHub devido à explosão de IA e automação, ainda possui uma presença mais segmentada no mercado de produtos web brasileiro.
 
@@ -10,7 +7,7 @@ A infraestrutura tornou-se um divisor de águas competitivo: Docker é a nova ba
 
 As tendências imediatas apontam para a inevitável ascensão do TypeScript de "desejável" para "obrigatório", a integração de ferramentas de IA no fluxo de desenvolvimento e a cobrança de observabilidade (APM, logs, tracing) como parte do escopo sênior. O profissional-alvo do mercado é, portanto, um Full-Stack com base sólida em fundamentos, capaz de operar em um ambiente de DevOps integrado e de traduzir complexidade técnica em impacto de negócio por meio de uma comunicação eficaz. Este panorama exige um aprendizado contínuo e estratégico, priorizando investimentos em tecnologias de infraestrutura como código e stacks modernos de TypeScript para manter relevância competitiva.
 
-Sumário executivo
+# Sumário executivo
 Stacks dominantes: JavaScript/TypeScript no front e back (React/Angular + Node), .NET em empresas de grande porte; Python cresce em popularidade global, puxado por AI/automação.  
 Ferramentas-chave: Docker é praticamente “baseline” a partir de Pleno; Kubernetes diferencia Sênior; CI/CD difundido em times maduros. (observação própria + triangulação de relatórios)
 Nuvem: AWS mantém liderança global, seguida por Azure e GCP — parâmetro útil para priorizar certificações.  
@@ -18,7 +15,7 @@ Soft skills críticas: comunicação e trabalho em equipe lideram; proatividade 
 Salários de referência (CLT, mensal): Júnior R$ 3k–5k, Pleno R$ 5k–8k, Sênior R$ 8k–12k +. Cruzado com relatórios e guias 2024/25.  
 Onde estudar/apostar: TypeScript, arquitetura com foco em escalabilidade, Docker/K8s, pipelines (GitHub Actions/GitLab CI), certificações cloud (AWS/Azure/GCP).  
 
-1) Escopo, fontes e método
+# 1) Escopo, fontes e método
 Amostra primária: leitura qualitativa de 10 vagas (jul–ago/2025) em LinkedIn, Programathor e Glassdoor; categorização por senioridade e trilhas (FE/BE/FS).
 Triangulação externa (tendências/benchmark):
 Stack Overflow Dev Survey 2024 — popularidade de linguagens, salários e DX.  
@@ -30,7 +27,7 @@ Programathor (salários) e Glassdoor (BR/SP) — referências pontuais.
 IDC/mercado — share de cloud (proxy global).  
 Observação: alguns portais de salário têm ruído (valores anuais e conversões inconsistentes). Para o Brasil, foi priorizado faixas por senioridade (Código Fonte + Robert Half), usando Glassdoor/Programathor como apoio.
 
-2) Demanda por tecnologias (Brasil + cenário global)
+# 2) Demanda por tecnologias (Brasil + cenário global)
 2.1 Linguagens e frameworks
 JS segue onipresente na web; TypeScript cresce e já aparece como requisito/desejável em grande parte das vagas (especialmente FE/FS).  
 Python ganhou o 1º lugar no GitHub em 2024 (muito por AI/DS/automação), mas em vagas de produto web no Brasil, JS/TS ainda é mais recorrente.  
@@ -40,8 +37,7 @@ Back-end: Node.js, .NET e PHP/Laravel seguem fortes; Java aparece em legados/ban
 Docker quase obrigatório a partir de Pleno; Kubernetes esperado para Sênior/arquitetura. (amostra + guias)
 Cloud: priorização de AWS/Azure/GCP para certificação; AWS lidera globalmente (33%), depois Azure (20%), GCP (10%).  
 
-
-3) Hard skills — o que é baseline x diferencial
+# 3) Hard skills — o que é baseline x diferencial
 Baseline (esperado em Júnior/Pleno)
 Lógica de programação; HTML/CSS/JS; controle de versão (Git); consumo/produção de APIs REST; SQL(MySQL/Postgres/SQL Server). 
 Um framework moderno (React/Angular no FE; Node/.NET/PHP no BE). 
@@ -51,41 +47,41 @@ Sênior
 Arquitetura (camadas, DDD, Clean), Kubernetes, cloud (custos/segurança/deploy), performance e liderança técnica. 
 Referências de macro-tendência para priorização: Stack Overflow 2024 (uso & salários por linguagem) e JetBrains 2024 (Language Promise Index — TypeScript no topo).  
 
-4) Soft skills — o que mais pesa na contratação
+# 4) Soft skills — o que mais pesa na contratação
 Comunicação clara e trabalho em equipe aparecem em praticamente todas as descrições; proatividade e resolução de problemas vêm na sequência.
 Para líderes/sêniores: facilitação de rituais ágeis, mentoria e negociação de escopo com produto/negócio.
 
 
-5) Remuneração e contratação (Brasil, 2024/25)
-5.1 Faixas (CLT) por senioridade — referência consolidada
+# 5) Remuneração e contratação (Brasil, 2024/25)
+# 5.1 Faixas (CLT) por senioridade — referência consolidada
  Júnior: R$ 3.000–5.000
  Pleno: R$ 5.000–8.000
  Sênior: R$ 8.000–12.000+
 (estimativa alinhada à Programathor/Robert Half/Código Fonte 2024–2025)  
 Cross-check: Robert Half 2025 (exemplos percentil p/ devs) e matérias derivadas: Front-End Pleno ~R$ 9,4k–15,5k, Full-Stack Sênior ~R$ 12,2k–20,6k, Mobile Pleno ~R$ 8,4k–14,1k (varia por cidade/porte).  
-5.2 PJ/Remoto Internacional
+# 5.2 PJ/Remoto Internacional
 Remoto LATAM segue aquecido para o mercado USA, com pacotes em USD acima da média local (competição maior; exigência de inglês e senioridade).  
-5.3 Benefícios e regime
+# 5.3 Benefícios e regime
 CLT: 13º, férias, FGTS são mandatórios; plano de saúde/VR/VA são comuns (política varia).  
 Comparar CLT vs PJ: considerar salário + 13º + 1/3 férias + FGTS + benefícios; PJ exige precificar esses itens no valor-hora/retainer.  
 
-6) Tendências 2025 — o que está subindo
+# 6) Tendências 2025 — o que está subindo
 TypeScript: consolidação como “padrão” em bases JS de médio/grande porte; tende a migrar de desejável → obrigatório no FS/BE Node.  
 AI tooling no fluxo de trabalho (code assist, geração de testes, análise estática “inteligente”); impacto também visto no Octoverse 2024.  
 Automação de pipeline (GitHub Actions/GitLab CI) como sinal de maturidade de engenharia. (consenso de mercado + relatórios)
 Observabilidade (APM/logs/tracing) movendo-se do “nice to have” para exigência em Sênior/Arquitetura. (consenso/entrevistas de mercado)
 
 
-7) Região e setor — nuances que puxam salário
+# 7) Região e setor — nuances que puxam salário
 SP capital e hubs (fintechs, e-commerce, SaaS) pagam acima da média; empresas .NET (bancos/enterprise) favorecem Angular + Azure no front, .NET Core no back. 
 Setores regulados exigem segurança/qualidade (testes, auditoria, esteira de compliance), impactando senioridade e remuneração. 
 
-8) Perfil profissional-alvo (2025)
+# 8) Perfil profissional-alvo (2025)
 Full-Stack com base sólida em JS/TS + framework (React/Angular) e Node (ou .NET para enterprise).
 DevOps básico: Docker, pipelines, testes automatizados; K8s e cloud para Sênior.
 Soft skills: comunicação, colaboração, ownership, autonomia com alinhamento ao negócio.
 
-9) Roadmap de evolução (12–18 meses)
+# 9) Roadmap de evolução (12–18 meses)
 Trilha A — React/Node/TypeScript (FS “universal”)
 3 meses: TS em projetos reais; testes (Vitest/Jest + Testing Library); Dockerizar apps.
 3–6 meses: APIs REST/GraphQL com Node/Express/Nest; CI (GitHub Actions); cache (Redis).
@@ -96,349 +92,47 @@ Trilha B — .NET/Angular (enterprise-ready)
 6–12 meses: DDD + CQRS + mensageria (RabbitMQ/Service Bus); segurança (OIDC/Keycloak/Entra ID).
 Certificações-alvo (ordenadas por impacto percebido no BR): AWS Practitioner/Associate, Azure AZ-900/AZ-204, CKA (K8s), GitHub Foundations.  
 
-10) Sinais que aumentam conversão em processo seletivo
+# 10) Sinais que aumentam conversão em processo seletivo
 Portfólio “auditável”: repositórios com testes, Dockerfile/compose, GitHub Actions, README com benchmarks e métricas.
 Cases escritos (1–2 páginas): problema → hipótese → solução → trade-offs → métricas.
 Métricas de impacto: redução de custo (ex.: 30% em cloud), melhora de performance (p 95), queda de bugs/MTTR.
 
-11) Riscos e armadilhas comuns
+# 11) Riscos e armadilhas comuns
 Ficar apenas no framework e negligenciar fundamentos (HTTP, SQL, concorrência, complexidade).
 Pular para Kubernetes sem dominar Docker/testes/pipelines.
 Ignorar segurança (OWASP, secrets, dependências) — cada vez mais perguntado em entrevistas.
 
-12) Linguagem Swift: Importância e Diferenciais
+# 12) Linguagem Swift: Importância e Diferenciais
 12. 1. Origem e Consolidação
 Criada pela Apple em 2014, Swift rapidamente substituiu o Objective-C como principal linguagem para desenvolvimento de aplicativos em iOS, iPadOS, macOS, watchOS e tvOS.
 É open-source desde 2015, o que ampliou sua adoção também em Linux e em alguns ambientes de servidor.
 
-12. 2. Diferenciais Técnicos frente a outras linguagens
+# 12. 2. Diferenciais Técnicos frente a outras linguagens
 Produtividade: Sintaxe clara e expressiva, reduzindo linhas de código em comparação ao Java e C++.
 Segurança: Fortemente tipada, com gerenciamento de memória automático, evitando erros comuns de ponteiros e null references (muito comuns em Java e C++).
 Performance: Compilada, com benchmarks que se aproximam ou até superam C++ em certas aplicações.
 Interoperabilidade: Compatível com Objective-C, facilitando a migração de grandes bases legadas.
 Ferramentas de Desenvolvimento: Integração nativa com o Xcode e frameworks como SwiftUI, ARKit, CoreML e RealityKit.
 
-
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comparativo Estratégico de Linguagens</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        
-        body {
-            background-color: #f5f7fa;
-            color: #333;
-            line-height: 1.6;
-            padding: 20px;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        
-        header {
-            text-align: center;
-            margin-bottom: 30px;
-            padding: 20px;
-            background: linear-gradient(135deg, #2c3e50, #4a6491);
-            color: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-        }
-        
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-        }
-        
-        .subtitle {
-            font-size: 1.2rem;
-            opacity: 0.9;
-        }
-        
-        .comparison-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-            background-color: white;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-        }
-        
-        .comparison-table th, .comparison-table td {
-            padding: 16px;
-            text-align: left;
-            border-bottom: 1px solid #e1e5eb;
-        }
-        
-        .comparison-table th {
-            background-color: #4a6491;
-            color: white;
-            font-weight: 600;
-            text-align: center;
-        }
-        
-        .comparison-table tr:last-child td {
-            border-bottom: none;
-        }
-        
-        .criteria {
-            background-color: #f1f5f9;
-            font-weight: 600;
-            width: 180px;
-        }
-        
-        .swift {
-            background-color: #ffecb3;
-        }
-        
-        .java {
-            background-color: #bbdefb;
-        }
-        
-        .javascript {
-            background-color: #ffcdd2;
-        }
-        
-        .python {
-            background-color: #c8e6c9;
-        }
-        
-        .platform-icon {
-            display: inline-block;
-            width: 24px;
-            height: 24px;
-            margin-right: 8px;
-            vertical-align: middle;
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-        
-        .performance-bar {
-            height: 8px;
-            background-color: #e0e0e0;
-            border-radius: 4px;
-            margin: 8px 0;
-            overflow: hidden;
-        }
-        
-        .performance-fill {
-            height: 100%;
-            border-radius: 4px;
-        }
-        
-        .performance-high {
-            width: 90%;
-            background-color: #4caf50;
-        }
-        
-        .performance-good {
-            width: 75%;
-            background-color: #8bc34a;
-        }
-        
-        .performance-medium {
-            width: 60%;
-            background-color: #ffc107;
-        }
-        
-        .security-high {
-            color: #4caf50;
-            font-weight: 600;
-        }
-        
-        .security-medium {
-            color: #ff9800;
-            font-weight: 600;
-        }
-        
-        .security-low {
-            color: #f44336;
-            font-weight: 600;
-        }
-        
-        .tag {
-            display: inline-block;
-            padding: 4px 8px;
-            border-radius: 4px;
-            font-size: 0.85rem;
-            margin: 2px;
-            color: white;
-        }
-        
-        .tag-premium {
-            background-color: #9c27b0;
-        }
-        
-        .tag-massive {
-            background-color: #2196f3;
-        }
-        
-        .tag-universal {
-            background-color: #ff9800;
-        }
-        
-        .tag-transversal {
-            background-color: #4caf50;
-        }
-        
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            padding: 20px;
-            color: #666;
-            font-size: 0.9rem;
-        }
-        
-        @media (max-width: 768px) {
-            .comparison-table {
-                display: block;
-                overflow-x: auto;
-            }
-            
-            h1 {
-                font-size: 2rem;
-            }
-            
-            .criteria {
-                width: 140px;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <header>
-            <h1>Comparativo Estratégico de Linguagens</h1>
-            <p class="subtitle">Análise das principais linguagens de programação por critérios técnicos e de mercado</p>
-        </header>
-        
-        <table class="comparison-table">
-            <thead>
-                <tr>
-                    <th>Critério</th>
-                    <th>Swift</th>
-                    <th>Java/Kotlin (Android)</th>
-                    <th>JavaScript/TypeScript (Web/App híbrido)</th>
-                    <th>Python (Data/IA)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="criteria">Plataforma-chave</td>
-                    <td class="swift">iOS/macOS/watchOS/tvOS</td>
-                    <td class="java">Android</td>
-                    <td class="javascript">Web + Apps híbridos (React Native, etc.)</td>
-                    <td class="python">Ciência de Dados / IA / Backend</td>
-                </tr>
-                <tr>
-                    <td class="criteria">Performance</td>
-                    <td class="swift">
-                        Alta (compilada e otimizada)
-                        <div class="performance-bar">
-                            <div class="performance-fill performance-high"></div>
-                        </div>
-                    </td>
-                    <td class="java">
-                        Boa (JVM, mas menos eficiente)
-                        <div class="performance-bar">
-                            <div class="performance-fill performance-good"></div>
-                        </div>
-                    </td>
-                    <td class="javascript">
-                        Média (interpretada/JS engine)
-                        <div class="performance-bar">
-                            <div class="performance-fill performance-medium"></div>
-                        </div>
-                    </td>
-                    <td class="python">
-                        Média (interpretada)
-                        <div class="performance-bar">
-                            <div class="performance-fill performance-medium"></div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="criteria">Segurança</td>
-                    <td class="swift"><span class="security-high">Alta (type safety, memory safe)</span></td>
-                    <td class="java"><span class="security-medium">Média (null safety em Kotlin)</span></td>
-                    <td class="javascript"><span class="security-low">Baixa (JS dinâmico)</span></td>
-                    <td class="python"><span class="security-medium">Média (tipagem dinâmica)</span></td>
-                </tr>
-                <tr>
-                    <td class="criteria">Mercado Global</td>
-                    <td class="swift">
-                        Segmentado (premium, Apple)
-                        <div><span class="tag tag-premium">Premium</span></div>
-                    </td>
-                    <td class="java">
-                        Massivo (Android = 70% global)
-                        <div><span class="tag tag-massive">Massivo</span></div>
-                    </td>
-                    <td class="javascript">
-                        Universal (web = onipresente)
-                        <div><span class="tag tag-universal">Universal</span></div>
-                    </td>
-                    <td class="python">
-                        Transversal (IA, dados, APIs)
-                        <div><span class="tag tag-transversal">Transversal</span></div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="criteria">Ecossistema</td>
-                    <td class="swift">Integrado Apple (Xcode, SwiftUI)</td>
-                    <td class="java">Variado (Android Studio, Jetpack)</td>
-                    <td class="javascript">Diversificado (Node, frameworks JS)</td>
-                    <td class="python">Forte em ciência/IA e frameworks</td>
-                </tr>
-                <tr>
-                    <td class="criteria">Diferencial</td>
-                    <td class="swift">Usuários de alto valor, apps premium</td>
-                    <td class="java">Maior base instalada mundial</td>
-                    <td class="javascript">Omnipresença digital</td>
-                    <td class="python">IA, automação, análise de dados</td>
-                </tr>
-            </tbody>
-        </table>
-        
-        <footer>
-            <p>Análise comparativa de linguagens de programação - Agosto 2025</p>
-        </footer>
-    </div>
-</body>
-</html>
-
-
-
-4. Importância Econômica e de Mercado
+# 12. 3. Importância Econômica e de Mercado
 iOS é minoria global (cerca de 28% de market share), mas concentra o público de maior poder aquisitivo.
 Aplicativos para iOS geram 2x mais receita por usuário que Android (dados Statista, 2024).
 Desenvolvedores Swift tendem a ter salários acima da média no mercado de mobile, especialmente em hubs como São Paulo, Toronto, Berlim, Londres e São Francisco.
 Empresas que priorizam qualidade de UX e usuários premium preferem Swift.
 
-5. Tendências Futuras (2025+)
+# 12. 4. Tendências Futuras (2025+)
 Crescimento em IA mobile: Swift está cada vez mais integrado a frameworks de machine learning on-device(CoreML, CreateML), tendência que fortalece a linguagem em aplicações de IA embarcada.
 Expansão em realidade aumentada (AR/VR) com frameworks como ARKit e RealityKit — Apple Vision Pro deve impulsionar ainda mais Swift.
 Server-side Swift: ainda nichado, mas frameworks como Vapor e Kitura abrem espaço para competir em backends modernos, principalmente em ambientes Apple.
 Valorização profissional: A combinação de exclusividade da plataforma + alta receita dos apps iOS garante demanda constante de especialistas Swift.
 
-Resumo estratégico:
+# Resumo estratégico:
 Enquanto Python e JavaScript dominam pela ubiquidade e Java/Kotlin pelo Android, o Swift ocupa o nicho premium da indústria de software: menos volume, mas maior valor. Isso significa que dominar Swift é um diferencial competitivo forte para desenvolvedores que desejam atuar em mercados com alta rentabilidade e em áreas emergentes como realidade aumentada e IA on-device.
 
 
 
-Referências
+# Referências
+
 STACK OVERFLOW. Developer Survey 2024. 2024. Disponível em: https://survey.stackoverflow.co/. Acesso em: 21 ago. 2025.
 JETBRAINS. The State of Developer Ecosystem 2024. 2024. Disponível em: https://www.jetbrains.com/lp/devecosystem-2024/. Acesso em: 21 ago. 2025.
 GITHUB. The State of the Octoverse 2024. 2024. Disponível em: https://octoverse.github.com/. Acesso em: 21 ago. 2025.
