@@ -1,4 +1,4 @@
-# estudodemercado
+# Estudo de mercado ADS
 Análise de Mercado para Desenvolvedores
 
 DOSSIÊ DE MERCADO — 2025
