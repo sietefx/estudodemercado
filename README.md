@@ -103,7 +103,8 @@ Pular para Kubernetes sem dominar Docker/testes/pipelines.
 Ignorar segurança (OWASP, secrets, dependências) — cada vez mais perguntado em entrevistas.
 
 # 12) Linguagem Swift: Importância e Diferenciais
-12. 1. Origem e Consolidação
+
+# 12. 1. Origem e Consolidação
 Criada pela Apple em 2014, Swift rapidamente substituiu o Objective-C como principal linguagem para desenvolvimento de aplicativos em iOS, iPadOS, macOS, watchOS e tvOS.
 É open-source desde 2015, o que ampliou sua adoção também em Linux e em alguns ambientes de servidor.
 
