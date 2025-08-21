@@ -107,11 +107,11 @@ Pular para Kubernetes sem dominar Docker/testes/pipelines.
 Ignorar segurança (OWASP, secrets, dependências) — cada vez mais perguntado em entrevistas.
 
 12) Linguagem Swift: Importância e Diferenciais
-1. Origem e Consolidação
+12. 1. Origem e Consolidação
 Criada pela Apple em 2014, Swift rapidamente substituiu o Objective-C como principal linguagem para desenvolvimento de aplicativos em iOS, iPadOS, macOS, watchOS e tvOS.
 É open-source desde 2015, o que ampliou sua adoção também em Linux e em alguns ambientes de servidor.
 
-2. Diferenciais Técnicos frente a outras linguagens
+12. 2. Diferenciais Técnicos frente a outras linguagens
 Produtividade: Sintaxe clara e expressiva, reduzindo linhas de código em comparação ao Java e C++.
 Segurança: Fortemente tipada, com gerenciamento de memória automático, evitando erros comuns de ponteiros e null references (muito comuns em Java e C++).
 Performance: Compilada, com benchmarks que se aproximam ou até superam C++ em certas aplicações.
@@ -119,44 +119,305 @@ Interoperabilidade: Compatível com Objective-C, facilitando a migração de gra
 Ferramentas de Desenvolvimento: Integração nativa com o Xcode e frameworks como SwiftUI, ARKit, CoreML e RealityKit.
 
 
-
-
-3. Comparativo estratégico com outras linguagens
-Critério
-Swift
-Java/Kotlin (Android)
-JavaScript/TypeScript (Web/App híbrido)
-Python (Data/IA)
-Plataforma-chave
-iOS/macOS/watchOS/tvOS
-Android
-Web + Apps híbridos (React Native, etc.)
-Ciência de Dados / IA / Backend
-Performance
-Alta (compilada e otimizada)
-Boa (JVM, mas menos eficiente)
-Média (interpretada/JS engine)
-Média (interpretada)
-Segurança
-Alta (type safety, memory safe)
-Média (null safety em Kotlin)
-Baixa (JS dinâmico)
-Média (tipagem dinâmica)
-Mercado Global
-Segmentado (premium, Apple)
-Massivo (Android = 70% global)
-Universal (web = onipresente)
-Transversal (IA, dados, APIs)
-Ecossistema
-Integrado Apple (Xcode, SwiftUI)
-Variado (Android Studio, Jetpack)
-Diversificado (Node, frameworks JS)
-Forte em ciência/IA e frameworks
-Diferencial
-Usuários de alto valor, apps premium
-Maior base instalada mundial
-Omnipresença digital
-IA, automação, análise de dados
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparativo Estratégico de Linguagens</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: linear-gradient(135deg, #2c3e50, #4a6491);
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .comparison-table th, .comparison-table td {
+            padding: 16px;
+            text-align: left;
+            border-bottom: 1px solid #e1e5eb;
+        }
+        
+        .comparison-table th {
+            background-color: #4a6491;
+            color: white;
+            font-weight: 600;
+            text-align: center;
+        }
+        
+        .comparison-table tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .criteria {
+            background-color: #f1f5f9;
+            font-weight: 600;
+            width: 180px;
+        }
+        
+        .swift {
+            background-color: #ffecb3;
+        }
+        
+        .java {
+            background-color: #bbdefb;
+        }
+        
+        .javascript {
+            background-color: #ffcdd2;
+        }
+        
+        .python {
+            background-color: #c8e6c9;
+        }
+        
+        .platform-icon {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            margin-right: 8px;
+            vertical-align: middle;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        
+        .performance-bar {
+            height: 8px;
+            background-color: #e0e0e0;
+            border-radius: 4px;
+            margin: 8px 0;
+            overflow: hidden;
+        }
+        
+        .performance-fill {
+            height: 100%;
+            border-radius: 4px;
+        }
+        
+        .performance-high {
+            width: 90%;
+            background-color: #4caf50;
+        }
+        
+        .performance-good {
+            width: 75%;
+            background-color: #8bc34a;
+        }
+        
+        .performance-medium {
+            width: 60%;
+            background-color: #ffc107;
+        }
+        
+        .security-high {
+            color: #4caf50;
+            font-weight: 600;
+        }
+        
+        .security-medium {
+            color: #ff9800;
+            font-weight: 600;
+        }
+        
+        .security-low {
+            color: #f44336;
+            font-weight: 600;
+        }
+        
+        .tag {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            margin: 2px;
+            color: white;
+        }
+        
+        .tag-premium {
+            background-color: #9c27b0;
+        }
+        
+        .tag-massive {
+            background-color: #2196f3;
+        }
+        
+        .tag-universal {
+            background-color: #ff9800;
+        }
+        
+        .tag-transversal {
+            background-color: #4caf50;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .comparison-table {
+                display: block;
+                overflow-x: auto;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .criteria {
+                width: 140px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Comparativo Estratégico de Linguagens</h1>
+            <p class="subtitle">Análise das principais linguagens de programação por critérios técnicos e de mercado</p>
+        </header>
+        
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Critério</th>
+                    <th>Swift</th>
+                    <th>Java/Kotlin (Android)</th>
+                    <th>JavaScript/TypeScript (Web/App híbrido)</th>
+                    <th>Python (Data/IA)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="criteria">Plataforma-chave</td>
+                    <td class="swift">iOS/macOS/watchOS/tvOS</td>
+                    <td class="java">Android</td>
+                    <td class="javascript">Web + Apps híbridos (React Native, etc.)</td>
+                    <td class="python">Ciência de Dados / IA / Backend</td>
+                </tr>
+                <tr>
+                    <td class="criteria">Performance</td>
+                    <td class="swift">
+                        Alta (compilada e otimizada)
+                        <div class="performance-bar">
+                            <div class="performance-fill performance-high"></div>
+                        </div>
+                    </td>
+                    <td class="java">
+                        Boa (JVM, mas menos eficiente)
+                        <div class="performance-bar">
+                            <div class="performance-fill performance-good"></div>
+                        </div>
+                    </td>
+                    <td class="javascript">
+                        Média (interpretada/JS engine)
+                        <div class="performance-bar">
+                            <div class="performance-fill performance-medium"></div>
+                        </div>
+                    </td>
+                    <td class="python">
+                        Média (interpretada)
+                        <div class="performance-bar">
+                            <div class="performance-fill performance-medium"></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="criteria">Segurança</td>
+                    <td class="swift"><span class="security-high">Alta (type safety, memory safe)</span></td>
+                    <td class="java"><span class="security-medium">Média (null safety em Kotlin)</span></td>
+                    <td class="javascript"><span class="security-low">Baixa (JS dinâmico)</span></td>
+                    <td class="python"><span class="security-medium">Média (tipagem dinâmica)</span></td>
+                </tr>
+                <tr>
+                    <td class="criteria">Mercado Global</td>
+                    <td class="swift">
+                        Segmentado (premium, Apple)
+                        <div><span class="tag tag-premium">Premium</span></div>
+                    </td>
+                    <td class="java">
+                        Massivo (Android = 70% global)
+                        <div><span class="tag tag-massive">Massivo</span></div>
+                    </td>
+                    <td class="javascript">
+                        Universal (web = onipresente)
+                        <div><span class="tag tag-universal">Universal</span></div>
+                    </td>
+                    <td class="python">
+                        Transversal (IA, dados, APIs)
+                        <div><span class="tag tag-transversal">Transversal</span></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="criteria">Ecossistema</td>
+                    <td class="swift">Integrado Apple (Xcode, SwiftUI)</td>
+                    <td class="java">Variado (Android Studio, Jetpack)</td>
+                    <td class="javascript">Diversificado (Node, frameworks JS)</td>
+                    <td class="python">Forte em ciência/IA e frameworks</td>
+                </tr>
+                <tr>
+                    <td class="criteria">Diferencial</td>
+                    <td class="swift">Usuários de alto valor, apps premium</td>
+                    <td class="java">Maior base instalada mundial</td>
+                    <td class="javascript">Omnipresença digital</td>
+                    <td class="python">IA, automação, análise de dados</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <footer>
+            <p>Análise comparativa de linguagens de programação - Agosto 2025</p>
+        </footer>
+    </div>
+</body>
+</html>
 
 
 
