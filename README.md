@@ -16,8 +16,7 @@ Desenvolver uma **plataforma digital integrada** que conecte pedreiros autônomo
 ## 📁 Arquivos Incluídos
 
 ### 📄 Documentos Principais
-- `project_model_canvas.html` - Canvas interativo em formato HTML
-- `project_model_canvas_final.pdf` - Versão PDF para impressão e compartilhamento
+- `index.html` - Canvas interativo em formato HTML
 - `project_model_canvas.md` - Versão em Markdown estruturada
 - `README.md` - Este arquivo de documentação
 
